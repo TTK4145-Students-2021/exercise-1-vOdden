@@ -16,7 +16,7 @@ Exercise 1 - Theory questions
  > *Your answer here*
  
  ### What is the conceptual difference between threads and processes?
- > *Your answer here*
+ > A thread is a subset of processes, where processes executes an instance of a program.
  
  ### Some languages support "fibers" (sometimes called "green threads") or "coroutines"? What are they?
  > *Your answer here*
