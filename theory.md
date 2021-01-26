@@ -17,15 +17,17 @@ Exercise 1 - Theory questions
  
  ### What is the conceptual difference between threads and processes?
  > A thread is a subset of processes, where processes executes an instance of a program.
+   Processes run in the seperate memory space, and threads run in shared memeory space.
  
  ### Some languages support "fibers" (sometimes called "green threads") or "coroutines"? What are they?
- > *Your answer here*
+ > Green threads are scheduled by a virtual machine.
+   Coroutines may run for a little while, then get interrupted by an another routine, then     continue the firt routine again.
  
  ### What is the Go-language's "goroutine"? A C/POSIX "pthread"?
- > *Your answer here*
+ > (?)
  
  ### In Go, what does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > It limits the number of OS threads that can execute Go code at user-level simultaneously
 
 
 
